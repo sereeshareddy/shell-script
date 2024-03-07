@@ -2,12 +2,12 @@
 
 echo "please enter your name"
 
-read USERNAME #THIS IS THE VARAIBLE WHERE THE VALUE OF USER ENTERED
+read -s USERNAME #THIS IS THE VARAIBLE WHERE THE VALUE OF USER ENTERED
 
 echo "Username enterted is: $USERNAME"
 
 echo "please enter your password"
 
-read PASSWORD
+read -s PASSWORD
 
 echo "Password enterted is: $PASSWORD"
