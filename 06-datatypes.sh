@@ -1,11 +1,11 @@
 
 #!/bin/bash
-FRUITS=("Apple" "Banana" "Mango")
+LETTERS=("sirisha" "Raghu" "Sakshika")
 
-echo "First value: ${FRUITS[0]}"
+echo "Mother name is: ${LETTERS[0]}"
 
-echo "Second value: ${FRUITS[1]}"
+echo "Father name is: ${LETTERS[1]}"
 
-echo "Second value: ${FRUITS[2]}"
+echo "Dauther name is: ${LETTERS[2]}"
 
-echo "All Fruits: ${FRUITS[@]}"
+echo "All Family details displayed here: ${LETTERS[@]}"
