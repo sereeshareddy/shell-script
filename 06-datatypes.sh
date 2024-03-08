@@ -1,11 +1,11 @@
 
 #!/bin/bash
-LETTERS=("sirisha" "Raghu" "Sakshika")
+LETTERS=("1" "2" "3")
 
-echo "Mother name is: ${LETTERS[0]}"
+echo "LETTERS OF 1: ${LETTERS[0]}"
 
-echo "Father name is: ${LETTERS[1]}"
+echo "LETTERS OF 2: ${LETTERS[1]}"
 
-echo "Dauther name is: ${LETTERS[2]}"
+echo "LETTERS OF 3: ${LETTERS[2]}"
 
-echo "All Family details displayed here: ${LETTERS[@]}"
+echo "All THE LETTERS DETAILS ARE FILLED HERE ${LETTERS[@]}"
